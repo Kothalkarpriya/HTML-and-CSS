@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 2.	Let’s Understand the Problems:
+            •	The Paragraph and List item has no closing tags in it. 
+            •	The first <strong> tag/element also have no closing tag. This is more problem-causing, as it is not simple to get where the element is to end. Thus, all the remaining texts get strongly emphasized.
+            •	This line is enclosed withing more than one tag:
+            •	<strong>strong <em>strong emphasized</strong>what is this? </em>. It is not understandable how to interpret them because of the earlier problem.
+            •	At last, the href value is not enclosed within the quotes, as the quote is missing. This caused a big problem; the link has not been rendered at all.
+     -->
+
+     <!-- Using HTML validation to debug -->
+    <h1>HTML debugging examples</h1>
+    <p>What causes errors in HTML?
+        <ul>
+            <li>Unclosed elements: If an element is <strong>not closed properly, then its effect can spread to areas you
+                    didn't intend</strong></li>
+            <li>Badly nested elements: Nesting elements properly is also very important for code behaving correctly.
+                <strong>strong <em>strong emphasized?</em></strong>
+                <em>what is this?</em> </li>
+            <li>Unclosed attributes: Another common source of HTML problems. Let's look at an example: <a href="https://skillcart.org/">like to skillcart homepage</a>
+            </li>
+    </ul>
+     
+</body>
+</html>

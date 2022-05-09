@@ -1,0 +1,15 @@
+body{
+    padding:1rem;
+    margin: 1rem;
+    font-size: 1000;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+}
+
+div{
+    color:red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

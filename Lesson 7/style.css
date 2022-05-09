@@ -1,0 +1,47 @@
+h1 {
+    color: green;
+}
+
+p,
+li {
+    color: red;
+}
+
+li {
+    list-style-type: none;
+}
+
+li.special,
+span.special {
+    color: lightblue;
+    font-weight: bold;
+}
+
+li em {
+    color: rebeccapurple;
+}
+
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Combining combinators and selectors */
+
+/* selects any span which is inside article */
+/* article span {} */
+
+/* we can combine multiple types too */
+
+body h1+p .special{
+    color: yellow;
+    background-color: black;
+    padding:5px;
+}
