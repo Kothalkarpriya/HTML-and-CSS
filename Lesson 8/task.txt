@@ -1,0 +1,7 @@
+You have to add following changes to the page:
+
+    1.	Build the level one heading pink, using the CSS color keyword hotpink.
+    2.	Change the heading to a 10px dotted border-bottom that uses the CSS color keyword purple.
+    3.	Add italic style to the level 2 heading.
+    4.	Change the ul used for the contact details a background-color of #eeeeee, and a 5px solid purple border. Use some padding to keep the element content away from the border from all sides.
+    5.	Change the links green on hover.
